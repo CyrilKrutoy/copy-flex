@@ -1,0 +1,142 @@
+main {
+  overflow: hidden;
+  justify-content: center;
+  align-items: center;
+  height: 336px;
+  width: 727px;
+  margin: 50px 0;
+  border-style: solid;
+  border-width: 2px;
+  border-color: rgba(128, 128, 128, 0.13);
+  border-radius: 3px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+#burger,
+#burger::before,
+#burger::after {
+  display: inline-block;
+  height: 30px;
+  width: 35px;
+  font-size: 21px;
+  color: #6a737c;
+}
+
+#burger {
+  margin: 40px 10px;
+  position: relative;
+}
+
+#burger::before {
+  content: "";
+  position: absolute;
+  background: url("svg/down-arrow.svg");
+  top: 25px;
+}
+
+#burger::after {
+  content: "";
+  position: absolute;
+  background: url("svg/up-arrow.svg");
+  top: -35px;
+}
+p {
+  margin-left: 60px;
+  margin-top: -105px;
+  display: flex;
+  flex-direction: row;
+  font-size: 15px;
+}
+#stylecode {
+  display: flex;
+  margin: 0 60px;
+  background-color: #eff0f1;
+  height: 120px;
+  width: 660px;
+  border-radius: 3px;
+}
+#styletext {
+  font-family: Consolas, Menlo, Monaco, Lucida Console, Liberation Mono,
+    DejaVu Sans Mono, Bitstream Vera Sans Mono, Courier New, monospace,
+    sans-serif;
+  font-size: 14px;
+  padding-left: 5px;
+  padding-top: 5px;
+}
+
+.violet {
+  color: #101094;
+}
+
+.red {
+  color: #7d2727;
+}
+
+#info {
+  display: flex;
+  justify-content: space-around;
+  margin: 15px 60px;
+}
+
+#inform {
+  font-size: 13px;
+  flex-direction: row;
+  width: 250px;
+  color: grey;
+}
+#infoshare {
+  text-decoration: none;
+  color: grey;
+  margin-right: 5px;
+}
+#infotime {
+  text-decoration: none;
+  color: #0077cc;
+  margin-left: 57px;
+}
+#infowiki {
+  text-decoration: none;
+  color: #0077cc;
+  margin-left: 65px;
+}
+#infowiki:first-child {
+  color: #6a737c;
+}
+#help {
+  display: flex;
+  margin: 0 60px;
+  height: 65px;
+  width: 660px;
+  border-bottom: 1px solid rgba(128, 128, 128, 0.4);
+  border-top: 1px solid rgba(128, 128, 128, 0.4);
+}
+.second {
+  height: 20px;
+  width: 20px;
+  color: grey;
+  font-size: 14px;
+}
+.text {
+  margin: 0 9px;
+  font-size: 13px;
+  left: 25px;
+  top: -28px;
+}
+
+.name {
+  text-decoration: none;
+  color: #0077cc;
+}
+
+.time {
+  text-decoration: none;
+  color: #6a737c;
+}
+
+.comment {
+  display: flex;
+  margin: 20px 60px;
+  text-decoration: none;
+  color: grey;
+  font-size: 13px;
+}
